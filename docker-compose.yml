@@ -1,0 +1,7 @@
+services:
+  app:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - "./etc-nginx:/etc/nginx"
